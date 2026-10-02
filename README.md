@@ -147,10 +147,18 @@ The Python implementation is shipped with the repository so the skill can invoke
 
 ## Standalone Python installation
 
-If you want to use the deterministic engine without Claude Code, install the package:
+If you want to use the deterministic engine without Claude Code, a prebuilt Python wheel is included in `dist/`.
+
+From the repository root:
 
 ```bash
-python -m pip install repo-xray
+python -m pip install dist/repo_xray-1.0.3-py3-none-any.whl
+```
+
+Then:
+
+```bash
+repo-xray --help
 ```
 
 For development from a checkout:
@@ -165,7 +173,7 @@ Or without installing:
 PYTHONPATH=. python -m skills.xray.cli --help
 ```
 
-The wheel is therefore an **optional standalone-engine distribution**, not a prerequisite for the Claude Skill itself.
+The wheel is an **optional standalone-engine distribution**, not a prerequisite for the Claude Skill itself.
 
 ---
 
