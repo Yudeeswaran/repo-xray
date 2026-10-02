@@ -91,6 +91,13 @@ This code performs deterministic repository operations such as file discovery, p
 
 ### 3. Python wheel
 
+### Prebuilt wheel
+
+A prebuilt wheel is included in `dist/`:
+
+```bash
+pip install dist/repo_xray-1.0.3-py3-none-any.whl
+
 The wheel is **not required because Claude Skills require Python wheels**. They do not.
 
 The wheel is an optional distribution of the Python engine and CLI:
