@@ -100,12 +100,6 @@ pip install dist/repo_xray-1.0.3-py3-none-any.whl
 
 The wheel is **not required because Claude Skills require Python wheels**. They do not.
 
-The wheel is an optional distribution of the Python engine and CLI:
-
-```bash
-pip install repo-xray
-repo-xray --help
-```
 
 It provides normal Python-package benefits such as versioning, a stable CLI entry point, clean installation, and independent testing of the deterministic engine.
 
