@@ -1,0 +1,1 @@
+{"type":"object","required":["source_type","commit"],"properties":{"source_type":{"const":"git_commit"},"commit":{"type":"string"},"file":{"type":"string"},"line":{"type":"integer"},"message":{"type":"string"}}}

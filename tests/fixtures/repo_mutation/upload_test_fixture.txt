@@ -1,0 +1,1 @@
+assert upload_limit == 10 MB

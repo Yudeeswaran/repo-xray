@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "source_basis": "Current public GitHub source snapshots fetched 2026-10-02; each case records the upstream blob SHA in its file header.",
+  "cases": [
+    {"repo":"flask","claim":"MAX_FORM_MEMORY_SIZE is 500000 bytes","patterns":["MAX_FORM_MEMORY_SIZE","500_000"],"expected":"VERIFIED","mutation":"500000 bytes -> 1000000 bytes","expect_direct_value":true},
+    {"repo":"fastapi","claim":"The keepalive inserter sends a keepalive comment when a timeout occurs","patterns":["keepalive","TimeoutError","KEEPALIVE_COMMENT"],"expected":"VERIFIED"},
+    {"repo":"django","claim":"Django checks request data size before reading the body","patterns":["_check_data_too_big","Content-Length","self._body = self.read"],"expected":"VERIFIED"},
+    {"repo":"kubernetes","claim":"The default RequestTimeout is 60 seconds","patterns":["RequestTimeout","60","time.Second"],"expected":"VERIFIED","mutation":"60 seconds -> 120 seconds","expect_direct_value":true},
+    {"repo":"go","claim":"ReadTimeout is the maximum duration for reading the entire request including the body","patterns":["ReadTimeout","maximum duration","entire request"],"expected":"VERIFIED","mutation":"60 seconds -> 120 seconds","expect_direct_value":false}
+  ]
+}

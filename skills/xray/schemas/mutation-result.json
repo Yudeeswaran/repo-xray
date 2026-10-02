@@ -1,0 +1,1 @@
+{"type":"object","required":["change","matches","impacts","risk"],"properties":{"change":{"type":"string"},"matches":{"type":"array","items":{"type":"object"}},"impacts":{"type":"array","items":{"type":"object"}},"risk":{"enum":["LOW","MEDIUM","HIGH","CRITICAL"]}}}

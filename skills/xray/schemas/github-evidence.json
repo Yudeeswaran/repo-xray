@@ -1,0 +1,1 @@
+{"type":"object","required":["source_type","number"],"properties":{"source_type":{"enum":["github_issue","github_pr","github_review"]},"number":{"type":"integer"},"url":{"type":"string"},"comment_id":{"type":["integer","null"]},"body":{"type":"string"}}}

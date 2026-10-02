@@ -1,0 +1,7 @@
+{
+  "name": "repo-xray",
+  "version": "1.0.3",
+  "description": "Evidence-grounded repository X-Ray and requirement mutation",
+  "author": {"name": "Repo X-Ray contributors"},
+  "skills": ["./skills/xray"]
+}

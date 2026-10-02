@@ -1,0 +1,5 @@
+{
+  "name": "repo-xray",
+  "owner": {"name": "Repo X-Ray contributors"},
+  "plugins": [{"name":"repo-xray","source":"./"}]
+}
